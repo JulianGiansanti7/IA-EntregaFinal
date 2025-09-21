@@ -1,0 +1,108 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    font-family: "montserrat", sans-serif;
+}
+
+body{
+    background-color: rgb(154, 199, 184);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 110vh;
+}
+
+.main__container{
+    background-color: #fff;
+    width: 90%;
+    min-height: 90vh;
+    padding: 8px;
+    border-radius: 8px;
+}
+
+.info__container{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 16px;
+    padding: 4px;
+    text-align: center;
+}
+
+.info__container h1{
+    font-size: 20px;
+}
+
+.info__container ul{
+    padding: 0 20px;
+    font-size: 14px;
+    display: flex;
+    flex-direction: column;
+    gap: 4px;
+}
+
+.bot__container{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 16px;
+    padding: 4px;
+    text-align: center;
+}
+
+.input-group{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+
+.input-group textarea{
+    font-size: 16px;
+    margin: 12px 0;
+    padding: 4px;
+    min-height: 150px;
+    max-height: 250px;
+    min-width: 100%;
+    max-width: 100%;
+}
+
+.input-group button{
+    border: none;
+    background-color: rgb(154, 199, 184);
+    padding: 12px;
+    font-weight: 600;
+}
+
+.input-group button:hover{
+    background-color: rgb(133, 178, 163);
+    cursor: pointer;
+}
+
+.ia-response {
+    white-space: pre-line; 
+    text-align: start;
+}
+
+/* Responsive */
+
+@media (min-width: 576px) {
+    .main__container{
+    width: 80%;
+}
+}
+@media (min-width: 992px) {
+    body{
+        min-height: 100vh;
+    }
+
+    .main__container{
+    width: 840px;
+}
+}
+

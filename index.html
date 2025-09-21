@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>GreenBot - Asistente Virtual de Jardinería </title>
+    <link rel="stylesheet" href="./styles.css">
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+</head>
+<body>
+    <main class="main__container"> 
+        <div class="info__container">
+            <h1>¡Bienvenido a GreenBot! 🌱</h1>
+
+            <p>Tu asistente virtual de jardinería, diseñado para brindarte un presupuesto rápido, claro y confiable.
+            Solo cuéntanos qué trabajo necesitás en tu jardín, junto con tus datos (nombre, dirección, teléfono) y la fecha disponible, y GreenBot 
+            se encargará de generar una propuesta detallada para vos.</p>
+            
+            <p>En pocos pasos vas a obtener:</p>
+            
+            <ul>
+                <li>Un presupuesto transparente y adaptado a tu pedido.</li>
+                <li>Opciones adicionales según tus necesidades.</li>
+                <li>Confirmación de disponibilidad del servicio.</li>
+            </ul>
+            
+            <p>💬 ¡Empecemos! Contanos qué necesitás hacer en tu jardín y GreenBot se ocupará del resto.</p>
+        </div>
+        <div class="bot__container">
+
+            <div class="input-group">
+                <textarea type="text" placeholder="Escribi tu pregunta..." id="user-input"></textarea>
+                <button id="send-button">Enviar</button>
+            </div>
+
+            <h4>Presupuesto Generado:</h4>
+            <span id="bot-message"> </span>
+
+        </div>
+    </main>
+
+    <script type="module" src="./main.js"></script>
+</body>
+</html>
