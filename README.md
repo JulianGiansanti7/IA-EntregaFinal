@@ -189,7 +189,7 @@ Estas técnicas fueron seleccionadas porque permiten respuestas más precisas, c
 - Clonar este repositorio:  
 
    ```bash
-   git clone https://github.com/JulianGiansanti7/Generacion-de-Prompts-Entrega2.git
+   git clone https://github.com/JulianGiansanti7/IA-EntregaFinal
 
 
 🌐 USO del BOT
