@@ -1,6 +1,6 @@
 
 // Configuracion de la API de Gemini...
-const API_KEY= "AIzaSyBpfaYDR0TkSCIv5a3uh4LX4Fgs9K46z70"
+const API_KEY= " "
 import { GoogleGenerativeAI } from "https://esm.run/@google/generative-ai";
 
 
